@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="70032041-b140-4886-9af9-8baf2c337bd1" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_jakarta_mail_1_6_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_websocket_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_websocket_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuang/aop/AuthInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuang/config/GetHttpSessionConfigurator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuang/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuang/config/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuang/contant/AuthCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuang/controller/ChatEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuang/model/domain/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuang/model/domain/ResultMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuang/model/domain/UserVer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuang/model/vo/UserSendMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuang/utils/MessageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuang/utils/ValidateCodeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-01-hello.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-01-hello.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuang/controller/TeamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuang/controller/TeamController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuang/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuang/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuang/model/request/UserRegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuang/model/request/UserRegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuang/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuang/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuang/service/impl/TeamServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuang/service/impl/TeamServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuang/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuang/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Screenshot_20230223_154057_com.ss.android.ugc.awe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mmexport1676550171902.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mmexport1677165354534.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kuang/SpringbootApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kuang/SpringbootApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Screenshot_20230223_154057_com.ss.android.ugc.awe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kuang/controller/TeamController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kuang/controller/TeamController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kuang/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kuang/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kuang/model/request/UserRegisterRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kuang/model/request/UserRegisterRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kuang/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kuang/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kuang/service/impl/TeamServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kuang/service/impl/TeamServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kuang/service/impl/UserServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kuang/service/impl/UserServiceImpl$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kuang/service/impl/UserServiceImpl$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kuang/service/impl/UserServiceImpl$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kuang/service/impl/UserServiceImpl$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kuang/service/impl/UserServiceImpl$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kuang/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kuang/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mmexport1676550171902.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mmexport1677165354534.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-01-hello-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/springboot-01-hello-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-01-hello-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/springboot-01-hello-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kuang/SpringbootApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/kuang/SpringbootApplicationTests.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="使用 Maven 包装器" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="corretto-1.8" />
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2GyuLVrZkoCGwgmVbF4VEgC4Eh8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/ideal/yupao/src/main/java/com/kuang/service/impl&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDK&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;f9f221bb3d57d622c79aa42a605cfb5a&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideal\yupao\src\main\java\com\kuang\service\impl" />
+      <recent name="D:\ideal\yupao\src\main\java\com\kuang\service" />
+      <recent name="D:\ideal\yupao\src\main\java\com\kuang\mapper" />
+      <recent name="D:\ideal\yupao\src\main\java\com\kuang\model\domain" />
+      <recent name="D:\ideal\yupao\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\尚硅谷Java\瑞吉外卖\reggie\src\main\resources\front" />
+      <recent name="D:\尚硅谷Java\瑞吉外卖\reggie\src\main\resources" />
+      <recent name="D:\ideal\springboot\src\main\resources" />
+      <recent name="D:\ideal\springboot\src\main\resources\public" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.kuang" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.kuang.utils.service" />
+      <recent name="com.kuang.utils.service.impl" />
+      <recent name="com.kuang.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kuang.utils" />
+      <recent name="com.kuang.model.vo" />
+      <recent name="com.kuang.model.domain" />
+      <recent name="com.kuang.controller" />
+      <recent name="com.kuang.config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringbootApplication (1)">
+    <configuration name="AlgorithmUtilsTest.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-01-hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuang.utils.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kuang.utils.service" />
+      <option name="MAIN_CLASS_NAME" value="com.kuang.utils.service.AlgorithmUtilsTest" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlgorithmUtilsTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-01-hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuang.utils.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kuang.utils.service" />
+      <option name="MAIN_CLASS_NAME" value="com.kuang.utils.service.AlgorithmUtilsTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-01-hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kuang" />
+      <option name="MAIN_CLASS_NAME" value="com.kuang.SpringbootApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeamUserMapperTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-01-hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuang.utils.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kuang.utils.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.kuang.utils.mapper.TeamUserMapperTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WatchDogTest.testWatchDog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-01-hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuang.utils.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kuang.utils.service" />
+      <option name="MAIN_CLASS_NAME" value="com.kuang.utils.service.WatchDogTest" />
+      <option name="METHOD_NAME" value="testWatchDog" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="reggie" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="reggie" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReggieApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="reggie" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.reggie.ReggieApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-01-hello" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kuang.SpringbootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kuang.SpringbootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpringbootApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.TeamUserMapperTest.test" />
+        <item itemvalue="JUnit.AlgorithmUtilsTest.Test" />
+        <item itemvalue="JUnit.AlgorithmUtilsTest.test" />
+        <item itemvalue="JUnit.WatchDogTest.testWatchDog" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70032041-b140-4886-9af9-8baf2c337bd1" name="Changes" comment="" />
+      <created>1667373089051</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667373089051</updated>
+      <workItem from="1667373090811" duration="905000" />
+      <workItem from="1667374033307" duration="1191000" />
+      <workItem from="1667786664901" duration="2928000" />
+      <workItem from="1667811520513" duration="2572000" />
+      <workItem from="1667824072670" duration="3573000" />
+      <workItem from="1667892240716" duration="1000" />
+      <workItem from="1667892259336" duration="2000" />
+      <workItem from="1667892288140" duration="3000" />
+      <workItem from="1669391841788" duration="725000" />
+      <workItem from="1669459392757" duration="2000" />
+      <workItem from="1669461127747" duration="501000" />
+      <workItem from="1669461769100" duration="2312000" />
+      <workItem from="1669532636661" duration="1285000" />
+      <workItem from="1669536553047" duration="680000" />
+      <workItem from="1669613215359" duration="132000" />
+      <workItem from="1669619460295" duration="48000" />
+      <workItem from="1669619933781" duration="4698000" />
+      <workItem from="1669626400641" duration="12540000" />
+      <workItem from="1669705388370" duration="2718000" />
+      <workItem from="1669708151596" duration="8348000" />
+      <workItem from="1669787528652" duration="1777000" />
+      <workItem from="1669789343118" duration="3323000" />
+      <workItem from="1669862360180" duration="3134000" />
+      <workItem from="1669958918867" duration="14499000" />
+      <workItem from="1669984779608" duration="490000" />
+      <workItem from="1670046500336" duration="11521000" />
+      <workItem from="1670130528923" duration="1289000" />
+      <workItem from="1670327089461" duration="1432000" />
+      <workItem from="1670373193344" duration="156000" />
+      <workItem from="1670373372636" duration="5234000" />
+      <workItem from="1670381707212" duration="12694000" />
+      <workItem from="1671089256099" duration="61000" />
+      <workItem from="1671092577161" duration="18000" />
+      <workItem from="1674131375098" duration="3718000" />
+      <workItem from="1677059414036" duration="4818000" />
+      <workItem from="1677070638382" duration="3781000" />
+      <workItem from="1677109781680" duration="11734000" />
+      <workItem from="1677200786974" duration="15459000" />
+      <workItem from="1677222045329" duration="5895000" />
+      <workItem from="1677228260742" duration="914000" />
+      <workItem from="1677229245377" duration="6924000" />
+      <workItem from="1677299006606" duration="18345000" />
+      <workItem from="1677378637058" duration="18958000" />
+      <workItem from="1677462341762" duration="18718000" />
+      <workItem from="1677572604144" duration="10603000" />
+      <workItem from="1677632997916" duration="24126000" />
+      <workItem from="1677740524687" duration="5721000" />
+      <workItem from="1677746740177" duration="12887000" />
+      <workItem from="1677765156108" duration="4257000" />
+      <workItem from="1677803518694" duration="11438000" />
+      <workItem from="1677822527133" duration="21383000" />
+      <workItem from="1677897380726" duration="19131000" />
+      <workItem from="1677921893924" duration="8686000" />
+      <workItem from="1677980216654" duration="2389000" />
+      <workItem from="1678008421168" duration="383000" />
+      <workItem from="1678109087427" duration="205000" />
+      <workItem from="1678110530396" duration="151000" />
+      <workItem from="1678261880820" duration="4608000" />
+      <workItem from="1678283952003" duration="21000" />
+      <workItem from="1678285168370" duration="31000" />
+      <workItem from="1678368810199" duration="65000" />
+      <workItem from="1678874341916" duration="86000" />
+      <workItem from="1678874569230" duration="62000" />
+      <workItem from="1678874825899" duration="637000" />
+      <workItem from="1678885538112" duration="122000" />
+      <workItem from="1678958126431" duration="2138000" />
+      <workItem from="1678960389847" duration="1368000" />
+      <workItem from="1678970065967" duration="5005000" />
+      <workItem from="1679011706802" duration="3870000" />
+      <workItem from="1679017615843" duration="2326000" />
+      <workItem from="1679125546941" duration="5307000" />
+      <workItem from="1679192754519" duration="6210000" />
+      <workItem from="1679539514485" duration="98000" />
+      <workItem from="1679752214488" duration="684000" />
+      <workItem from="1679894058205" duration="911000" />
+      <workItem from="1679917659904" duration="18000" />
+      <workItem from="1679918823777" duration="1146000" />
+      <workItem from="1679924989287" duration="2710000" />
+      <workItem from="1679928358446" duration="263000" />
+      <workItem from="1679961852109" duration="3187000" />
+      <workItem from="1680139658888" duration="18000" />
+      <workItem from="1680140028204" duration="678000" />
+      <workItem from="1680165285540" duration="134000" />
+      <workItem from="1680165486265" duration="350000" />
+      <workItem from="1680166092608" duration="629000" />
+      <workItem from="1680168222115" duration="1588000" />
+      <workItem from="1680680505078" duration="8228000" />
+      <workItem from="1680702922966" duration="1897000" />
+      <workItem from="1681177460012" duration="7201000" />
+      <workItem from="1681278528664" duration="2489000" />
+      <workItem from="1681292135347" duration="2590000" />
+      <workItem from="1681344735312" duration="8095000" />
+      <workItem from="1681382040673" duration="8000" />
+      <workItem from="1681435251074" duration="7062000" />
+      <workItem from="1681455938690" duration="234000" />
+      <workItem from="1681461396626" duration="28000" />
+      <workItem from="1681461471070" duration="7000" />
+      <workItem from="1681463640328" duration="3369000" />
+      <workItem from="1681541952290" duration="9163000" />
+      <workItem from="1681606638453" duration="543000" />
+      <workItem from="1681607189064" duration="10723000" />
+      <workItem from="1681950292736" duration="31000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="60" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kuang/controller/TeamController.java</url>
+          <line>237</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.Long" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="((Class)this.type).name" custom="org.springframework.cglib.reflect.FastClass,java.lang.Class" />
+        <watch expression="originUser" language="JAVA" />
+        <watch expression="((Class)this.type).name" custom="org.springframework.cglib.reflect.FastClass,java.lang.Class" />
+        <watch expression="user" />
+        <watch expression="originUser" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+        <item name="springboot" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/yupao_backend_master$SpringbootApplication__1_.ic" NAME="SpringbootApplication (1) 覆盖结果" MODIFIED="1681182633006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

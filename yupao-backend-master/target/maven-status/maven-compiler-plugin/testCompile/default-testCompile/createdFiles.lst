@@ -1,0 +1,8 @@
+com\kuang\utils\controller\TeamControllerTest.class
+com\kuang\utils\service\AlgorithmUtilsTest.class
+com\kuang\utils\service\Redistest.class
+com\kuang\utils\service\UserServiceTest.class
+com\kuang\utils\service\WatchDogTest.class
+com\kuang\utils\mapper\TeamUserMapperTest.class
+com\kuang\SpringbootApplicationTests.class
+com\kuang\utils\service\RedissonTest.class
